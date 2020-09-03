@@ -1,5 +1,10 @@
 import React from 'react';
 import logo from './logo.svg';
+
+import Header from "./Header.js";
+import Item from "./Item.js";
+
+
 import './App.css';
 
 function App() {
@@ -18,7 +23,11 @@ function App() {
         >
           Learn React
         </a>
+        <Header />
       </header>
+     
+
+
     </div>
   );
 }
